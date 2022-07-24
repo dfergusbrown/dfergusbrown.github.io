@@ -1,0 +1,109 @@
+/* CSS - cascading style sheets
+/*Plan*/
+
+/* Spacing to make it easier to read
+Used hr and br html tags
+
+make header tags have green text and a gradient background
+
+CSS rules
+  object {
+    key: value ----> declaration
+  }
+
+Add an animation to make words look like they are dropping onto webpage */
+/*centering */
+
+/* Connect the external css file to html file */
+
+/* Add hover effect to buttons
+use pseudo-class, add keyword to an object to specify the state of the html element
+object:pseudo-class {
+  key:value
+} */
+
+button:hover {
+  font-size: 100%;
+  background-color: green;
+  color: white
+}
+
+button {
+  background-color: black;
+}
+/* universal selector * (applies CSS rule to every html tag) */
+* {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+/* Make a background image */
+
+h1, h2 {
+  color: white;
+  background-image: linear-gradient(to right, orange , blue);
+}
+
+body {
+ background-attachment: fixed;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-image: url(https://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release.png);
+   background-repeat: no-repeat;
+ background-position: center;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+th {
+  height: 100px;
+}
+
+td {
+  text-align: center;
+  height: 100px;
+}
+
+td:hover {
+  color: black;
+}
+
+
+ul li{
+  list-style-position: inside;
+}
+
+.tablegame td {
+  font-size: 400%;
+  opacity: 70%;
+  background-color: black;
+}
+
+.tablegame:hover {
+  cursor: url(https://cur.cursors-4u.net/mechanics/mec-1/mec9.cur), progress;
+}
+
+/* table:hover {
+  cursor: url(https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/flying-saucer_1f6f8.png);
+} */
+
+/* Give a unique border to the paragraphs */
+/* .book {
+  border-width: 3px;
+  border-syle: inset;
+  border-color: #3cba54;
+}
+
+<p class = "book"> - customizing individual paragraphs
+<h2 class = "book">
+
+/* custom object - id, simple states that CSS used for one object*/
+/* #remove {
+  text-decoration: line-through;
+} */
+
+/* custom object - class, css created for several objects */
+/* Treasure Hunt tips: */
